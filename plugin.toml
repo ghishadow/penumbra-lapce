@@ -1,0 +1,7 @@
+name = "penumbra"
+version = "0.1.0"
+display-name = "Penumbra"
+author = "ghishadow"
+description = "Penumbra is a mathematically balanced colour scheme"
+repository = "ghishadow/penumbra-lapce"
+themes = ["penumbra-dark.toml", "penumbra-dark-contrast-plus.toml", "penumbra-light.toml", "penumbra-dark-contrast-plus-plus.toml"]

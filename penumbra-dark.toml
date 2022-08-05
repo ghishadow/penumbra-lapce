@@ -1,0 +1,208 @@
+[theme]
+name = "Penumbra Dark"
+
+[ui]
+font-family = ""
+font-size = 13
+header-height = 35
+status-height = 25
+tab-min-width = 100
+activity-width = 50
+scroll-width = 10
+drop-shadow-width = 0
+
+[theme.base]
+red = "#CA736C"
+orange = "#BA823A"
+yellow = "#8D9741"
+green = "#47A477"
+cyan = "#00A2AF"
+blue = "#5794D0"
+purple = "#9481CC"
+magenta = "#BC73A4"
+white = "#FFFDFB"
+black = "#24272B"
+grey = "#3E4044"
+
+    # Sun+ “white”, text in highlighted sections, emphasised borders
+    # Sun selections, light borders, strongly emphasised content
+    # Sun- optional
+    # Sky+ emphasized content and emphasised UI text
+    # Sky foreground, code, main content colour, text both in editors and UI elements
+    # Sky- comments, deemphasised content
+    # Shade+ foreground UI elements, rulers, indentation guides and similar
+    # Shade main background colour
+    # Shade- “black”, deemphasized/receded background elements, selections, dark UI elements
+
+#     sun+ 	#FFFDFB
+# sun 	#FFF7ED
+# sun- 	#F2E6D4
+# sky+ 	#BEBEBE
+# sky 	#8F8F8F
+# sky- 	#636363
+# shade+ 	#3E4044
+# shade 	#303338
+# shade- 	#24272B
+
+
+[theme.syntax]
+"comment" = "#636363"
+"boolean" = "$orange"
+"constant" = "#92963a"
+"type" = "#2ac3de"
+"typeAlias" = "$red"
+"number" = "$orange"
+"enum" = "$yellow"
+"struct" = "$white"
+"structure" = "$yellow"
+"interface" = "$yellow"
+"attribute" = "$yellow"
+"constructor" = "$yellow"
+"function" = "$blue"
+"method" = "$blue"
+"function.method" = "$blue"
+"keyword" = "$cyan"
+"selfKeyword" = "$purple"
+"field" = "$red"
+"property" = "$red"
+"enumMember" = "$red"
+"enum-member" = "$red"
+"variable.other.member" = "$green"
+"string" = "#9ece6a"
+"type.builtin" = "$cyan"
+"builtinType" = "$cyan"
+"escape" = "$cyan"
+"embedded" = "$cyan"
+"exception" = "$blue"
+"repeat" = "$magenta"
+"conditional" = "$blue"
+"punctuation" = "#89ddff"
+"punctuation.bracket" = "$red"
+"punctuation.delimiter" = "$grey"
+"punctuation.special" = "$blue"
+"parameter" = "$red"
+"text.title" = "$blue"
+"text.literal" = "$red"
+"text.uri" = "$red"
+"text.reference" = "$red"
+"text.strong" = "$red"
+"string.escape" = "$red"
+"string.special" = "$green"
+"string.regexp" = "#b4f9f8"
+"string.special.symbol" = "#b4f9f8"
+"constant.builtin" = "$orange"
+"function.builtin" = "$orange"
+"tag" = "$red"
+"variable.builtin" = "$red"
+"variable.parameter" = "$yellow"
+"namespace" = "$blue"
+"keyword.control" = "$magenta"
+"keyword.control.import" = "$cyan"
+"keyword.storage.type" = "$orange"
+"keyword.storage.modifier" = "$red"
+"constant.character.escape" = "$magenta"
+"constant.numeric.integer" = "$orange"
+"function.macro" = "$cyan"
+"keyword.operator" = "#89ddff"
+"keyword.function" = "$magenta"
+"keyword.control.conditional" = "$magenta"
+"keyword.control.exception" = "$magenta"
+"keyword.control.repeat" = "$magenta"
+"constant.builtin.boolean" = "$orange"
+"symbol" = "#b4f9f8"
+
+
+# Markdown
+# "markup.heading.marker" = "$purple"
+# "markup.heading.1" = "$purple"
+# "markup.heading.2" = "$purple"
+# "markup.heading.3" = "$purple"
+# "markup.heading.4" = "$purple"
+# "markup.heading.5" = "$purple"
+# "markup.heading.6" = "$purple"
+# "markup.raw.block" = "$purple"
+# "markup.quote" = "$purple"
+# "markup.raw.inline" = "$purple"
+# "markup.italic" = "$purple"
+# "markup.bold" = "$purple"
+# "markup.link.url" = "$purple"
+# "markup.link.label" = "$purple"
+# "markup.link.text" = "$purple"
+# "markup.list.numbered" = "$purple"
+# "markup.list.unnumbered" = "$purple"
+
+[theme.ui]
+"lapce.active_tab" = "#24283b"
+"lapce.inactive_tab" = "#959cbd"
+"lapce.error" = "$red"
+"lapce.warn" = "$yellow"
+"lapce.dropdown_shadow" = "#1f1d2e"
+"lapce.border" = "#00a0ba"
+"lapce.scroll_bar" = "$grey"
+
+
+"editor.background" = "#303338" # shade
+"editor.foreground" = "#8F8F8F" # sky
+"editor.dim" = "#5C6370"
+"editor.focus" = "#24283b"
+"editor.caret" = "#528BFF"
+"editor.selection" = "#30374b"
+"editor.current_line" = "#21202e"
+"editor.link" = "$magenta"
+
+"inlay_hint.foreground" = "$white"
+"inlay_hint.background" = "#524f6788"
+
+"error_lens.error.foreground" = "$red"
+"error_lens.error.background" = "#E06C7520"
+"error_lens.warning.foreground" = "$yellow"
+"error_lens.warning.background" = "#E5C07B20"
+"error_lens.other.foreground" = "#5C6370"
+"error_lens.other.background" = "#5C637020"
+
+"source_control.added" = "#50A14F32"
+"source_control.removed" = "#FF526632"
+"source_control.modified" = "#0184BC32"
+
+"palette.background" = "#24272b"
+"palette.current" = "#30374b"
+
+"completion.background" = "#24272b"
+"completion.current" = "#30374b"
+
+"hover.background" = "#3e4044"
+
+"activity.background" = "#303338"
+"activity.current" = "#30374b"
+
+"panel.background" = "#24272b"
+"panel.current" = "#30374b"
+"panel.hovered" = "#3e4044" 
+
+"status.background" = "#24272b"
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "#9aa5ce"
+
+"terminal.cursor" = "$white"
+"terminal.foreground" = "#8f8f8f"
+"terminal.background" = "#303338"
+"terminal.white" = "$white"
+"terminal.black" = "$black"
+"terminal.red" = "$red"
+"terminal.blue" = "$blue"
+"terminal.green" = "$green"
+"terminal.yellow" = "$yellow"
+"terminal.cyan" = "$cyan"
+"terminal.magenta" = "$magenta"
+"terminal.bright_white" = "$white"
+"terminal.bright_red" = "$red"
+"terminal.bright_blue" = "$blue"
+"terminal.bright_green" = "$green"
+"terminal.bright_yellow" = "$yellow"
+"terminal.bright_cyan" = "$cyan"
+"terminal.bright_magenta" = "$magenta"
+"terminal.bright_black" = "$black"
